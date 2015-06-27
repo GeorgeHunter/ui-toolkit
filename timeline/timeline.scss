@@ -1,0 +1,48 @@
+.profile__block {
+  border-left: 4px solid $calm;
+  margin-left: 12%;
+  padding-top: 20px;
+  padding-left: 12%;
+  padding-bottom: 30px;
+  position: relative;
+  width: 80%;
+}
+
+.profile__icon {
+  position: absolute;
+  top: 20%;
+  left: -23px;
+  font-size: 40px;
+  background: #fff;
+  border: 2px solid #387ef5;
+  border-radius: 50%;
+  padding: 0 2px !important;
+}
+
+.icon--success {
+  color: #1dd02d;
+}
+
+.icon--negative {
+  color: #f05a28;
+}
+
+.timeline__title {
+  border-bottom: 1px solid $calm;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.timeline__delete {
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  color: $positive;
+  font-size: 20px;
+}
+
+.timeline__background {
+  height: 100vh;
+}
